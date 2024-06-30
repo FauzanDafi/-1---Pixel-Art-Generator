@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>#1 - Pixel Art</title>
+</head>
+<body>
+    <div class="box">
+    <div class="wrapper">
+<div class="wrapper-slide">
+    <div class="slider">
+        <label for="lebar-grid">lebar-grid</label>
+        <input type="range" id="lebar-grid" max="40" min="1">
+        <span id="lebar-value">00</span>
+    </div>
+    <div class="slider">
+        <label for="tinggi-grid">tinggi-grid</label>
+        <input type="range" id="tinggi-grid" max="30" min="1">
+        <span id="tinggi-value">00</span>
+    </div>
+</div>
+<div class="button-grup">
+
+
+    <button id="create-grid">create grid</button>
+    <button id="clear-grid">clear grid</button>
+    <input type="color" id="color-grid">
+    <button id="erase-grid">erase grid</button>
+    <button id="paint-grid">paint grid</button>
+</div>
+    </div>
+    <div id="paint-box"></div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
